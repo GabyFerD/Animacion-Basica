@@ -26,6 +26,10 @@ body {
   border-radius: 8px;
   padding: 2rem;
   margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .title {
@@ -58,4 +62,14 @@ body {
   100% {
     transform: translateX(500px);
   }
+}
+
+.icon {
+  color: var(--color4);
+  font-size: 4rem;
+}
+
+.icon1 {
+  color: var(--color1);
+  font-size: 3rem;
 }
